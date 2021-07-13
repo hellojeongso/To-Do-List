@@ -51,7 +51,7 @@ function paintGreeting(text){
   // classList.remove 클래스를 필요에 따라 삭제한다.
   form.classList.remove(SHOWING_ON);
   greeting.classList.add(SHOWING_ON);
-  greeting.innerText = `Hello ${text}'s diary`
+  greeting.innerText = `Hello~! ${text}'s diary♡`
 }
 
 // 브라우저 내 로컬스토리지에서 저장된 value를 가져오는 함수
