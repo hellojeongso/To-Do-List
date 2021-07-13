@@ -4,10 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>To Do List</title>
+  <link rel="stylesheet" href="index.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+/>
 </head>
 <body>
+<div class="grid">
+
+  <div class="container">
+    <div class="calendar">
+      <div class="month">
+        <i class="fas fa-angle-left prev"></i>
+        <div class="date">
+          <h1></h1>
+          <p></p>
+        </div>
+        <i class="fas fa-angle-right next"></i>
+      </div>
+      <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="days"></div>
+    </div>
+  </div>
   
-  Test
+  <div class="box">
+    <div class="js-clock">
+      <div class="clock">00:00</div>
+    </div>
+
+    <form class="js-form form">
+      <input type="text" placeholder="What's your name?"/>
+    </form>
+
+    <h1 class="js-greetings greetings"></h1>
+
+  <div class="formSection">
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write add to do"/>
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+  </div> 
+  <span class="js-weather"></span>
+</div>
+</div>
+
+  <script src="clock.js"></script>
+  <script src="gretting.js"></script>
+  <script src="todo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
+  <script src="calendar.js"></script>
 </body>
 </html>
