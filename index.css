@@ -266,7 +266,7 @@ input:focus {
   outline:none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
   
   .container {
     width: 50%;
