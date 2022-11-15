@@ -1,0 +1,36 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+input, button, textarea {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+

@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+
+  .all-box {
+    margin: 10px;
+  }
+  .js-form {
+    width: 100%;
+  }
+
+  .formSection {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .clock {
+    font-size: 50px;
+  }
+}
